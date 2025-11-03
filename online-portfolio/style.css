@@ -1,7 +1,6 @@
-@media screen{
+@media screen {
     body {
         background-color: #99b2dd;
-        text-align: center;
     }
 
     button {
@@ -22,9 +21,49 @@
 
     h1 {
         font-family: "Playfair Display", serif;
+        font-size: 80px;
+        font-weight: 800;
     }
 
     h2 {
         font-family: "Playfair Display", serif;
+    }
+
+    #navigation {
+        background-color: #3a506b;
+        text-align: center;
+    }
+
+    #navigation a {
+        color: white;
+        text-decoration: none;
+    }
+    #button {
+        text-align-last: end;
+    }
+
+    #experience {
+        background-color: #0b132b;
+        color: #99b2dd;
+        border-bottom: 10px solid #bebfc5;
+    }
+
+    #skills {
+        background-color: #0b132b;
+        color: #99b2dd;
+        border-bottom: 10px solid #bebfc5;
+    }
+
+    #education {
+        background-color: #0b132b;
+        color: #99b2dd;
+        border-bottom: 10px solid #bebfc5;
+    }
+
+    #name {
+        padding: 10px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 20px;
     }
 }
