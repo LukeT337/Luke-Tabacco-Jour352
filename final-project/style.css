@@ -1,40 +1,61 @@
-.cover-image {
-    position: relative;
-    text-align: center;
+@media screen {
+    img {
+        width: 100%;
+    }
+
+    .cover {
+        padding: 0px;
+    }
+
+    .cover-image {
+        position: relative;
+        text-align: center;
+    }
+
+    .cover-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cover-text {
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        color: white;
+    }
+
+    .cover-text h4 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #opening-text {
+        text-align: center;
+    }
+
+    #hand-brush {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #jackie-desk {
+        padding-top: 60px;
+    }
+
+    #statistical-infographic {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
-.cover-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.cover-text {
-    position: absolute;
-    top: 0;
-    color: black;
-    padding: 20px;
-}
-
-.cover-text h4 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-#opening-text {
-    text-align: center;
-}
-
-#hand-brush {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#jackie-desk {
-    padding-top: 60px;
-}
-
-#statistical-infographic{
-    padding-top: 70px;
-    padding-bottom: 70px;
+@media (min-width: 576px) {
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    h1{
+        font-size: 80px;
+    }
 }
