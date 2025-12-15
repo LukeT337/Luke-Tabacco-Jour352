@@ -3,6 +3,12 @@
         width: 100%;
     }
 
+    p {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
     .cover {
         padding: 0px;
     }
@@ -19,9 +25,10 @@
 
     .cover-text {
         position: absolute;
-        top: 10%;
+        top: 30%;
         left: 60%;
         color: white;
+        font-family: "Dancing Script", cursive;
     }
 
     .cover-text h4 {
@@ -32,21 +39,65 @@
 
     #opening-text {
         text-align: center;
+        padding-bottom: 60px;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    #first-large-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-top: 50px;
     }
 
     #hand-brush {
         padding-top: 50px;
         padding-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
     }
 
     #jackie-desk {
         padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
     }
 
     #statistical-infographic {
-        padding-top: 70px;
+        padding-top: 50px;
         padding-bottom: 70px;
     }
+
+    #first-quote {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
 }
 
 @media (min-width: 576px) {
@@ -54,8 +105,19 @@
         padding-left: 10%;
         padding-right: 10%;
     }
-    
-    h1{
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 991px) {
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    h1 {
         font-size: 80px;
     }
 }
