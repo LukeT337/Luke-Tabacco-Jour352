@@ -100,17 +100,6 @@
     
 }
 
-@media (min-width: 576px) {
-    .content {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-}
-
 @media (min-width: 991px) {
     .content {
         padding-left: 10%;
