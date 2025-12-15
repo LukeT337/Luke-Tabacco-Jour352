@@ -97,7 +97,145 @@
         display: table;
         clear: both;
     }
-    
+
+    #big-crowd {
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    #impact h2 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    #line {
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    #rachel {
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #jackie-day {
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    #final-words p {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #brush {
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    #quote-text h2 {
+        font-family: "Dancing Script", cursive;
+        font-weight: 300;
+        text-align: center;
+        font-size: 150px;
+        padding-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    #quote-text h3 {
+        font-family: "Dancing Script", cursive;
+        font-weight: 300;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    #quote-text h4 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 18px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    #closing i {
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    #first-quote h2 {
+        font-family: "Dancing Script", cursive;
+        font-weight: 300;
+        text-align: center;
+        font-size: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    h6 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
 
 @media (min-width: 991px) {
